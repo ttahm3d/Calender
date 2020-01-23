@@ -1,5 +1,58 @@
 body{
     width: 100%;
     margin: 0px;
-    background-color: chartreuse;
+    max-height: 100vh;
+}
+
+.date-section{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    box-shadow: gray 0px 0px 20px;
+    margin: 25vh auto;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    padding:50px;   
+    
+}
+
+.Date-Picker{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.date-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.inp-boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Righteous', cursive;
+}
+
+.inp-box{
+    width: 4vw;
+    border: none;
+    margin-top: 1vh;
+    height: 3vw;
+    box-shadow: #5BABFF 0px 2px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Righteous', cursive;
 }
