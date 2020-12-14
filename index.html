@@ -1,40 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Righteous&display=swap" rel="stylesheet">
-    <title>Calender</title>
-</head>
-<body>
-    <section class="date-section">
-        <div class="container">
-            <div class="Date-Picker">
-                <h2>Pick A Date</h2>
-                <form action="" class="date-form">
-                    <div class="inp-boxes">
-                        <div class="day form-item">
-                            <label for="date">Day</label>
-                            <input type="text" name="date" id="date" class="inp-box">
-                        </div>
-                        <div class="month form-item">
-                            <label for="month">Month</label>
-                            <input type="text" name="month" id="month" class="inp-box">
-                        </div>
-                        <div class="year form-item">
-                            <label for="year">Year</label>
-                            <input type="text" name="year" id="year" class="inp-box">
-                        </div>
-                    </div>
-                    
-                    <div class="submitbtn">
-                        <input type="submit" value="Submit">
-                    </div> 
-                </form>
-            </div>
-        </div>
-    </section>
-</body>
-</html>
+<div class="container">
+  <div class="header">
+    Day Calculator
+  </div>
+  <div class="content">
+    <!--     <form> -->
+    <div class="date-section">
+      <input type="text" placeholder="Year" id="year-select">
+      <select name="month" id="month-select">
+        <option value="">Month</option>
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April</option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July</option>
+        <option value="7">August</option>
+        <option value="8">September</option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December</option>
+      </select>
+      <select name="date" id="date-select">
+        <option value="">Date</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+    </div>
+    <div class="button-section">
+      <button id="btnCalc">Calculate</button>
+    </div>
+    <!--     </form> -->
+    <div>
+      <h1 class="result-section">Day</h1>
+    </div>
+  </div>
+
+  <div class="footer">
+    Created by Tahir Ahmed T
+  </div>
+</div>
